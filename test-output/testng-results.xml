@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19793" started-at="2017-07-16T11:15:20Z" finished-at="2017-07-16T11:15:39Z">
+  <suite name="Default suite" duration-ms="26277" started-at="2017-07-27T06:21:37Z" finished-at="2017-07-27T06:22:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19793" started-at="2017-07-16T11:15:20Z" finished-at="2017-07-16T11:15:39Z">
-      <class name="com.webdriver.manyi.TestZhiChuBao">
-        <test-method status="PASS" signature="helloWorld()[pri:0, instance:com.webdriver.manyi.TestZhiChuBao@4439f31e]" name="helloWorld" duration-ms="19774" started-at="2017-07-16T19:15:20Z" finished-at="2017-07-16T19:15:39Z">
+    <test name="Default test" duration-ms="26277" started-at="2017-07-27T06:21:37Z" finished-at="2017-07-27T06:22:03Z">
+      <class name="com.webdriver.test.TestLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webdriver.test.TestLogin@5442a311]" name="setUp" is-config="true" duration-ms="2942" started-at="2017-07-27T14:21:37Z" finished-at="2017-07-27T14:21:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- helloWorld -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.manyi.TestZhiChuBao@4439f31e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-16T19:15:39Z" finished-at="2017-07-16T19:15:39Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:com.webdriver.test.TestLogin@5442a311]" name="TestLogin" duration-ms="22152" started-at="2017-07-27T14:21:40Z" finished-at="2017-07-27T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="TestPrintf()[pri:0, instance:com.webdriver.test.TestLogin@5442a311]" name="TestPrintf" duration-ms="2" started-at="2017-07-27T14:22:02Z" finished-at="2017-07-27T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPrintf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webdriver.test.TestLogin@5442a311]" name="tearDown" is-config="true" duration-ms="1158" started-at="2017-07-27T14:22:02Z" finished-at="2017-07-27T14:22:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.webdriver.manyi.TestZhiChuBao -->
+      </class> <!-- com.webdriver.test.TestLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

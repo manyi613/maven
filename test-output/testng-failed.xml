@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.webdriver.manyi.TestHelloWorldTestNG">
+      <class name="com.webdriver.test.TestLogin">
         <methods>
-          <include name="helloWorld"/>
           <include name="tearDown"/>
+          <include name="helloWorld"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.webdriver.manyi.TestHelloWorldTestNG -->
+      </class> <!-- com.webdriver.test.TestLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
