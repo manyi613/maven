@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="TestLogin"/>
+      <class name="com.webdriver.test.TestLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
